@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.fira-sans{
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+/* navbar */
+nav{
+    display: flex;
+    background: rgba(245, 245, 245, 1);
+    padding: 24px 10%;
+    /* width: 1600px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.sign-in a{
+    color: #006A50;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+}
+main .hero{
+    width: 80%;
+    max-width: 1280px;
+    margin:  auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 60px;
+    display: flex;
+    gap: 64px;
+    background: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text p{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.text h2{
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.text .btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+}
