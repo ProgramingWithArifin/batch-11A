@@ -69,3 +69,44 @@ main .hero{
     border-radius: 8px;
     background: rgba(0, 106, 80, 1);
 }
+.pillars{
+    width: 80%;
+    max-width: 1280px;
+    margin:  auto;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+.pillars h2{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 32px;
+}
+.card{
+    width: 300px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+.card img{
+    width: 64px;
+    margin-bottom: 25px;
+}
+.card h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
