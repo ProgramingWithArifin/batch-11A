@@ -69,24 +69,25 @@ main .hero{
     border-radius: 8px;
     background: rgba(0, 106, 80, 1);
 }
-.pillars{
+.container{
     width: 80%;
     max-width: 1280px;
     margin:  auto;
     margin-bottom: 80px;
     border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
 }
-.pillars h2{
+.sub-heading{
     color: rgba(14, 14, 14, 1);
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 .card-section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 32px;
 }
 .card{
     width: 300px;
@@ -94,6 +95,7 @@ main .hero{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
+    margin-top: 8px;
 }
 .card img{
     width: 64px;
@@ -109,4 +111,72 @@ main .hero{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+}
+.vision p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.v-card{
+    padding: 32px;
+    width: 410.67px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    position: relative;
+    border-radius: 16px;
+    margin-top: 8px;
+}
+.v-card img{
+    width: 64px;
+}
+.v-card h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0px;
+}
+.v-card p{
+    line-height: 24px;
+}
+.v-card .btn{
+    position: absolute;
+    bottom: 32px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.v-card:first-child{
+    background: rgba(84, 144, 245, 0.2);
+}
+.v-card:first-child .btn{
+    background: rgba(84, 144, 245, 1);
+}
+.v-card:nth-child(2){
+    background: rgba(198, 228, 214, 1);
+}
+.v-card:nth-child(2) .btn{
+    background: rgba(9, 161, 92, 1);
+}
+.v-card:nth-child(3){
+    background: rgba(247, 235, 207, 1);
+}
+.v-card:nth-child(3) .btn{
+    background: rgba(255, 194, 57, 1);
+}
+/* quote */
+.quote{
+    margin-top: 32px;
+    padding: 48px 24px;
+    
+}
+.quote .name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
 }
