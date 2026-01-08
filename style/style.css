@@ -112,7 +112,7 @@ main .hero{
     font-size: 16px;
     font-weight: 400;
 }
-.vision p{
+.vision p, .news p{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -173,7 +173,9 @@ main .hero{
 .quote{
     margin-top: 32px;
     padding: 48px 24px;
-    
+    background:url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 .quote .name{
     color: rgba(14, 14, 14, 0.8);
@@ -186,7 +188,7 @@ main .hero{
     background: rgba(255, 255, 255, 1);
 }
 .opinion-box .box{
-    padding: 24px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,18 +197,19 @@ main .hero{
 .opinion-box .box:first-child{
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgba(198, 228, 214, 1);
+    padding: 24px;
 }
 .box p{
     color: rgba(14, 14, 14, 1);
     font-size: 20px;
     font-weight: 600;
+    padding: 24px;
 }
 .opinion-box hr{
     color: rgba(14, 14, 14, 0.15);
     height: 1px;
 }
 .box:nth-child(n+2):nth-child(-n+4){
-    
     background: rgba(255, 255, 255, 0.1);
 }
 .box .para p{
@@ -218,8 +221,13 @@ main .hero{
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    padding: 40px;
 }
+.button{
+    border-left: 2px solid rgba(14, 14, 14, 0.39);
+    padding: 40px;
 
+}
 .box .button a{
     padding: 10px 14px 10px 14px;
     border: 1px solid rgba(14, 14, 14, 1);
